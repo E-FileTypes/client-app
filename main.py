@@ -21,11 +21,9 @@ class EncryptionApp(QMainWindow):
         self.setWindowTitle("E-FileTypes App")
         self.setGeometry(100, 100, 400, 600)
 
-        # Create a central widget and set it as the main widget
         central_widget = QWidget(self)
         self.setCentralWidget(central_widget)
 
-        # Create a tab widget
         tab_widget = QTabWidget()
         central_layout = QVBoxLayout()
         central_layout.setContentsMargins(10, 10, 10, 10)
@@ -83,7 +81,7 @@ class EncryptionApp(QMainWindow):
         encrypt_section.addWidget(encrypt_button)
         encrypt_button.clicked.connect(self.encrypt)
 
-        # Create 'Decrypt' section (similar to 'Encrypt' section)
+        # Create 'Decrypt' section (similar to 'Encrypt' section). laborious code written by github copilot
         decrypt_tab = QWidget()
         tab_widget.addTab(decrypt_tab, "Decrypt")
         decrypt_section = QVBoxLayout()
