@@ -1,0 +1,2 @@
+e-filetypes-py
+PyQt6

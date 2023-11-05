@@ -9,7 +9,7 @@
 
 | |
 | :---: |
-| ![Static Badge](https://img.shields.io/badge/built_using-python-blue) ![Static Badge](https://img.shields.io/badge/built%20in-only_36_hours!-purple) |
+| ![Static Badge](https://img.shields.io/badge/built_using-python-blue) ![Static Badge](https://img.shields.io/badge/built%20in-only_36_hours!-purple) ![Static Badge](https://img.shields.io/badge/dependencies-2-gold) |
 | ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/E-FileTypes/client-app/release-please.yml?label=release-please) ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/E-FileTypes/client-app/ruff.yml?label=ruff) |
 | ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/E-FileTypes/client-app) |
 | |
